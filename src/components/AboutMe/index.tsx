@@ -1,14 +1,12 @@
 import React from "react";
-import Profile from "components/Profile";
-import ProfileImage from "img/avatar.gif";
-// import { HeaderWrapper, JobTitle } from "./style";
 import Section from "components/Section";
+import Person from "assets";
 
 const AboutMe = () => {
   return (
     <div>
       Introduction
-      <Section title="Intro"></Section>
+      <Section title="Intro" icon={<Person />}></Section>
     </div>
   );
 };
