@@ -3,11 +3,14 @@ import React from "react";
 import "./App.css";
 // import Header from "./components/Header";
 import Header from "components/Header";
+import AboutMe from "components/AboutMe";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <div className="content"></div>
+      <AboutMe />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
