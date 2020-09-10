@@ -1,6 +1,5 @@
 import React, { ReactComponentElement, ReactElement, ReactChild } from "react";
-// import Icon from "components/Icon";fvgbg
-// import { ReactComponent as Image } from "components/Image";
+
 import {
   SectionWrapper,
   SectionHeader,
@@ -23,8 +22,7 @@ const Section = (props: Props) => {
         <SectionTitle>{props.title}</SectionTitle>
         <SectionDivider></SectionDivider>
       </SectionHeader>
-      {/* <div className="section-header">{props.title}</div>
-      <div className="section-content">{props.children}</div> */}
+      <div className="section-content">{props.children}</div>
     </SectionWrapper>
   );
 };

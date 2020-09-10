@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "components/Section";
-import Person from "assets";
+import { Person, Construction, Design, System } from "assets";
 
 const AboutMe = () => {
   return (
@@ -8,17 +8,14 @@ const AboutMe = () => {
       <Section title="INTRO" icon={<Person />}>
         This is intro content
       </Section>
-      <Section title="TAGS" icon={<Person />}>
-        This is tags content
-      </Section>
-      <Section title="Front-End" icon={<Person />}>
+      <Section title="Front-End" icon={<Design />}>
         This is Front-end content
       </Section>
-      <Section title="Back-End" icon={<Person />}>
+      <Section title="Back-End" icon={<Construction />}>
         This is Back-end content
       </Section>
-      <Section title="ETC" icon={<Person />}>
-        This is ETC content
+      <Section title="System" icon={<System />}>
+        This is System content
       </Section>
     </div>
   );
