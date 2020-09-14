@@ -1,4 +1,4 @@
-import React, { ReactComponentElement, ReactElement, ReactChild } from "react";
+import React, { ReactElement, ReactNode } from "react";
 
 import {
   SectionWrapper,
@@ -6,12 +6,13 @@ import {
   SectionIcon,
   SectionTitle,
   SectionDivider,
+  SectionContent,
 } from "./style";
 
 interface Props {
   title: string;
   icon?: ReactElement;
-  children: ReactChild;
+  children: ReactNode;
 }
 
 const Section = (props: Props) => {
@@ -22,7 +23,7 @@ const Section = (props: Props) => {
         <SectionTitle>{props.title}</SectionTitle>
         <SectionDivider></SectionDivider>
       </SectionHeader>
-      <div className="section-content">{props.children}</div>
+      <SectionContent>{props.children}</SectionContent>
     </SectionWrapper>
   );
 };
