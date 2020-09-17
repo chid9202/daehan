@@ -5,6 +5,7 @@ import {
   Construction,
   Design,
   System,
+  Project,
   LogoNginx,
   LogoReact,
   LogoStyledComponents,
@@ -47,7 +48,7 @@ const AboutMe = () => {
         Dark, GO, React Native
       </Section> */}
 
-      <Section title="PROJECTS" icon={<System />}>
+      <Section title="PROJECTS" icon={<Project />}>
         Projects,,.,,
       </Section>
     </div>
