@@ -17,7 +17,7 @@ export const SectionIcon = styled.div`
   justify-content: center;
   align-items: center;
   border: 2px solid #f4f6f7;
-  width: 80px;
+  min-width: 47px;
   height: 47px;
   border-radius: 50%;
   margin-right: 14px;
