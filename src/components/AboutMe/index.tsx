@@ -1,11 +1,11 @@
 import React from "react";
 import Section from "components/Section";
 import {
-  Person,
-  Construction,
-  Design,
-  System,
-  Project,
+  IconPerson,
+  IconConstruction,
+  IconDesign,
+  IconSystem,
+  IconProject,
   LogoNginx,
   LogoReact,
   LogoStyledComponents,
@@ -16,29 +16,32 @@ import {
   LogoAWS,
   LogoSQLServer,
   LogoUbuntu,
+  ProjectImageDbalance1,
+  ProjectImageDbalance2,
 } from "assets";
 import LogoCard from "components/LogoCard";
+import ProjectCard from "components/ProjectCard";
 
 const AboutMe = () => {
   return (
     <div>
-      <Section title="INTRODUCE" icon={<Person />}>
+      <Section title="INTRODUCE" icon={<IconPerson />}>
         <p>
           Hello! I am Full-Stack Software Engineer.
           <br />I code from physical to application layer!
         </p>
       </Section>
-      <Section title="FRONT-END" icon={<Design />}>
+      <Section title="FRONT-END" icon={<IconDesign />}>
         <LogoCard logo={<LogoTypeScript />} name="TypeScript" />
         <LogoCard logo={<LogoReact />} name="React" />
         <LogoCard logo={<LogoStyledComponents />} name="Styled-components" />
         <LogoCard logo={<LogoNginx />} name="NginX" />
       </Section>
-      <Section title="BACK-END" icon={<Construction />}>
+      <Section title="BACK-END" icon={<IconConstruction />}>
         <LogoCard logo={<LogoPython />} name="Python" />
         <LogoCard logo={<LogoDjango />} name="Django" />
       </Section>
-      <Section title="SYSTEM" icon={<System />}>
+      <Section title="SYSTEM" icon={<IconSystem />}>
         <LogoCard logo={<LogoDataDog />} name="DataDog" />
         <LogoCard logo={<LogoAWS />} name="AWS" />
         <LogoCard logo={<LogoSQLServer />} name="SQL Server" />
@@ -47,9 +50,12 @@ const AboutMe = () => {
       {/* <Section title="INTERESTED IN.." icon={<System />}>
         Dark, GO, React Native
       </Section> */}
-
-      <Section title="PROJECTS" icon={<Project />}>
-        Projects,,.,,
+      <Section title="PROJECTS" icon={<IconProject />}>
+        <ProjectCard
+          projectImage={ProjectImageDbalance1}
+          projectTitle="Balance Adjustment"
+          projectDesc="Project to test body central weight and determin adjustment data."
+        />
       </Section>
     </div>
   );

@@ -1,9 +1,9 @@
 /* Icons */
-import { ReactComponent as Person } from "assets/face-black-48dp.svg";
-import { ReactComponent as Construction } from "assets/construction-black-48dp.svg";
-import { ReactComponent as Design } from "assets/history_edu-black-48dp.svg";
-import { ReactComponent as System } from "assets/https-black-48dp.svg";
-import { ReactComponent as Project } from "assets/gavel-24px.svg";
+import { ReactComponent as IconPerson } from "assets/face-black-48dp.svg";
+import { ReactComponent as IconConstruction } from "assets/construction-black-48dp.svg";
+import { ReactComponent as IconDesign } from "assets/history_edu-black-48dp.svg";
+import { ReactComponent as IconSystem } from "assets/https-black-48dp.svg";
+import { ReactComponent as IconProject } from "assets/gavel-24px.svg";
 
 /* Logo */
 import { ReactComponent as LogoDjango } from "assets/django-logo-positive.svg";
@@ -17,12 +17,15 @@ import { ReactComponent as LogoAWS } from "assets/Amazon_Web_Services_Logo.svg";
 import { ReactComponent as LogoSQLServer } from "assets/microsoft-sql-server.svg";
 import { ReactComponent as LogoUbuntu } from "assets/ubuntu-seeklogo.svg";
 
+/* Projects */
+import ProjectImageDbalance1 from "assets/dbalance_1.png";
+import ProjectImageDbalance2 from "assets/dbalance_2.png";
 export {
-  Person,
-  Construction,
-  Design,
-  System,
-  Project,
+  IconPerson,
+  IconConstruction,
+  IconDesign,
+  IconSystem,
+  IconProject,
   LogoDjango,
   LogoTypeScript,
   LogoReact,
@@ -33,4 +36,6 @@ export {
   LogoAWS,
   LogoSQLServer,
   LogoUbuntu,
+  ProjectImageDbalance1,
+  ProjectImageDbalance2,
 };
