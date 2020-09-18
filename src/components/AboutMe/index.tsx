@@ -1,4 +1,5 @@
 import React from "react";
+import { AboutMeWrapper } from "./style";
 import Section from "components/Section";
 import {
   IconPerson,
@@ -26,7 +27,7 @@ import BusinessCardWrapper from "components/BusinessCard";
 
 const AboutMe = () => {
   return (
-    <div>
+    <AboutMeWrapper>
       <Section title="INTRODUCE" icon={<IconPerson />}>
         <p>
           Hello! I am Full-Stack Software Engineer.
@@ -69,7 +70,7 @@ const AboutMe = () => {
           </a>
         </div>
       </Section>
-    </div>
+    </AboutMeWrapper>
   );
 };
 

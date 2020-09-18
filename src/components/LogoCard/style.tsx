@@ -12,7 +12,7 @@ export const LogoWrapper = styled.div`
   justify-content: center;
   height: 160px;
   svg {
-    width: 160px;
+    width: 80%;
   }
 `;
 
