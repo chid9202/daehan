@@ -4,6 +4,7 @@ import { ReactComponent as IconConstruction } from "assets/construction-black-48
 import { ReactComponent as IconDesign } from "assets/history_edu-black-48dp.svg";
 import { ReactComponent as IconSystem } from "assets/https-black-48dp.svg";
 import { ReactComponent as IconProject } from "assets/gavel-24px.svg";
+import { ReactComponent as IconContact } from "assets/contacts-24px.svg";
 
 /* Logo */
 import { ReactComponent as LogoDjango } from "assets/django-logo-positive.svg";
@@ -26,6 +27,7 @@ export {
   IconDesign,
   IconSystem,
   IconProject,
+  IconContact,
   LogoDjango,
   LogoTypeScript,
   LogoReact,

@@ -6,6 +6,7 @@ import {
   IconDesign,
   IconSystem,
   IconProject,
+  IconContact,
   LogoNginx,
   LogoReact,
   LogoStyledComponents,
@@ -21,6 +22,7 @@ import {
 } from "assets";
 import LogoCard from "components/LogoCard";
 import ProjectCard from "components/ProjectCard";
+import BusinessCardWrapper from "components/BusinessCard";
 
 const AboutMe = () => {
   return (
@@ -56,6 +58,16 @@ const AboutMe = () => {
           projectTitle="Balance Adjustment"
           projectDesc="Project to test body central weight and determin adjustment data."
         />
+      </Section>
+      <Section title="CONTACT" icon={<IconContact />}>
+        <BusinessCardWrapper />
+        <div>
+          Check my LinkedIn for detail!
+          <br />
+          <a className="linkein" href="https://www.linkedin.com/in/chid9202/">
+            https://www.linkedin.com/in/chid9202/
+          </a>
+        </div>
       </Section>
     </div>
   );
