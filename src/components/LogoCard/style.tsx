@@ -13,6 +13,7 @@ export const LogoWrapper = styled.div`
   height: 160px;
   svg {
     width: 80%;
+    max-width: 160px;
   }
 `;
 
