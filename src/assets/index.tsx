@@ -21,6 +21,9 @@ import { ReactComponent as LogoUbuntu } from "assets/ubuntu-seeklogo.svg";
 /* Projects */
 import ProjectImageDbalance1 from "assets/dbalance_1.png";
 import ProjectImageDbalance2 from "assets/dbalance_2.png";
+import ProjectFoodup1 from "assets/foodup_12.png";
+import ProjectFoodup2 from "assets/foodup_34.png";
+
 export {
   IconPerson,
   IconConstruction,
@@ -40,4 +43,6 @@ export {
   LogoUbuntu,
   ProjectImageDbalance1,
   ProjectImageDbalance2,
+  ProjectFoodup1,
+  ProjectFoodup2,
 };

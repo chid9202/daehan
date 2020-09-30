@@ -8,15 +8,19 @@ export const ProjectCardWrapper = styled.div`
   @media (max-width: ${MIN_WIDTH}px) {
     flex-flow: row wrap;
   }
-
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
+`;
+
+export const ProjectImageWrapper = styled.div`
+  min-width: 50%;
+  width: 50%;
+  height: auto;
   img {
-    width: 50%;
-    height: auto;
-    @media (max-width: ${MIN_WIDTH}px) {
-      width: 100%;
-    }
+    width: 100%;
+  }
+  @media (max-width: ${MIN_WIDTH}px) {
+    width: 100%;
   }
 `;
 
@@ -24,6 +28,7 @@ export const ProjectTextWrapper = styled.div`
   padding: 16px;
   .title {
     text-align: left;
+    padding-bottom: 8px;
     @media (max-width: ${MIN_WIDTH}px) {
       text-align: center;
     }

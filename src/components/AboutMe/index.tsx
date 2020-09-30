@@ -19,7 +19,9 @@ import {
   LogoSQLServer,
   LogoUbuntu,
   ProjectImageDbalance1,
-  ProjectImageDbalance2,
+  // ProjectImageDbalance2,
+  ProjectFoodup1,
+  // ProjectFoodup2
 } from "assets";
 import LogoCard from "components/LogoCard";
 import ProjectCard from "components/ProjectCard";
@@ -57,8 +59,13 @@ const AboutMe = () => {
         <ProjectCard
           projectImage={ProjectImageDbalance1}
           projectTitle="Balance Adjustment"
-          projectDesc="Project to test body central weight and determin adjustment data."
-        />
+          projectDesc="This project is to test body central weight and determine wedight compensation adjustment. The data is collected from electric weight scale with multiple weight scale sensors and display the data in real-time. After customizable assessment, it determins possilbe weight compensations."
+        ></ProjectCard>
+        <ProjectCard
+          projectImage={ProjectFoodup1}
+          projectTitle="FoodUp"
+          projectDesc="This project is Yelp-like mobile application which specialized in K-town area in Los Angeles. This project was initialized by COVID-19 which rapidly increased the food delivery. It collects users recommandations and shows popular restaurant by locations and categories."
+        ></ProjectCard>
       </Section>
       <Section title="CONTACT" icon={<IconContact />}>
         <BusinessCardWrapper />
