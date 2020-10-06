@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { MIN_WIDTH } from "styles/layout";
+import { Typography } from "@material-ui/core";
 
 export const HeaderWrapper = styled.header`
   display: flex;
@@ -11,13 +12,11 @@ export const HeaderWrapper = styled.header`
   }
 `;
 
-export const JobTitle = styled.p`
-  font-size: 1em;
+export const JobTitle = styled(Typography)`
   font-style: italic;
   margin: 0.1em 0 0.6em;
   padding: 6px 10px;
   background: #faf46a;
   color: rgba(0, 0, 0, 0.7);
   border-radius: 4px;
-  line-height: 1;
 `;

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { MIN_WIDTH } from "styles/layout";
+import { Paper } from "@material-ui/core";
 
-export const LogoCardWrapper = styled.div`
-  width: 50%;
+export const LogoCardWrapper = styled(Paper)`
+  width: 45%;
   margin-bottom: 16px;
 `;
 

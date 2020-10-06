@@ -38,7 +38,9 @@ export const SectionDivider = styled.div`
 export const SectionContent = styled.div`
   display: flex;
   flex-flow: wrap;
+  justify-content: space-between;
   padding: 32px 0;
+
   p {
     margin: 0;
     color: #334455;
