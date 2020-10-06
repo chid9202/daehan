@@ -11,7 +11,7 @@ interface Props {
   projectImageSlider?: { url: string }[];
   projectTitle?: string;
   projectDesc?: string;
-  child?: ReactChild;
+  children?: ReactChild;
 }
 
 const ProjectCard = (props: Props) => {
@@ -25,8 +25,8 @@ const ProjectCard = (props: Props) => {
       <ProjectTextWrapper>
         <p className="title">{props.projectTitle}</p>
         <p className="desc">{props.projectDesc}</p>
+        {props.children}
       </ProjectTextWrapper>
-      {props.child}
     </ProjectCardWrapper>
   );
 };

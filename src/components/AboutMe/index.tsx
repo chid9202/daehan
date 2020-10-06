@@ -60,16 +60,25 @@ const AboutMe = () => {
           projectTitle="Balance Adjustment"
           projectDesc="This project is to test body central weight and determine wedight compensation adjustment. The data is collected from electric weight scale with multiple weight scale sensors and display the data in real-time. After customizable assessment, it determins possilbe weight compensations."
         ></ProjectCard>
-        <ProjectCard
-          projectImage={ProjectFoodup1}
-          projectTitle="FoodUp"
-          projectDesc="This project is Yelp-like mobile application which specialized in K-town area in Los Angeles. This project was initialized by COVID-19 which rapidly increased the food delivery. It collects users recommandations and shows popular restaurant by locations and categories."
-        ></ProjectCard>
-        <ProjectCard
-          projectImage={ProjectMyPeekcok}
-          projectTitle="MyPeekcok"
-          projectDesc="Clone coding project which copied iPhone 11 iMessage application. Created with React Native and deployed on AWS Amplify."
-        ></ProjectCard>
+        <ProjectCard projectImage={ProjectFoodup1} projectTitle="FoodUp">
+          <p className="desc">
+            This project is Yelp-like mobile application which specialized in
+            K-town area in Los Angeles. This project was initialized by COVID-19
+            which rapidly increased the food delivery. It collects users
+            recommandations and shows popular restaurant by locations and
+            categories. I was in charge of creating <b>REST API</b> and admin
+            pages.
+          </p>
+        </ProjectCard>
+        <ProjectCard projectImage={ProjectMyPeekcok} projectTitle="MyPeekcok">
+          <p className="desc">
+            Clone coding project copied iPhone 11 iMessage (hybrid) application.
+            Created with <b>React Native</b> and deployed on <b>AWS Amplify</b>.
+            You can see the{" "}
+            <a href="https://www.mypeekcok.daehanchi.info/">SOURCE CODE</a> and{" "}
+            <a href="https://github.com/chid9202/MyPeekcok">WEBSITE</a>
+          </p>
+        </ProjectCard>
       </Section>
       <Section title="CONTACT" icon={<IconContact />}>
         <BusinessCardWrapper />
