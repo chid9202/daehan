@@ -18,6 +18,8 @@ import {
   LogoAWS,
   LogoSQLServer,
   LogoUbuntu,
+  LogoLinkedIn,
+  LogoGithub,
   ProjectImageDbalance1,
   ProjectFoodup1,
   ProjectMyPeekcok,
@@ -25,7 +27,7 @@ import {
 import LogoCard from "components/LogoCard";
 import ProjectCard from "components/ProjectCard";
 import BusinessCard from "components/BusinessCard";
-import { Typography } from "@material-ui/core";
+import { Typography, Link } from "@material-ui/core";
 
 const AboutMe = () => {
   return (
@@ -89,18 +91,16 @@ const AboutMe = () => {
         </ProjectCard>
       </Section>
       <Section title="CONTACT" icon={<IconContact />}>
-        <BusinessCard />
-        <div>
-          <Typography variant="body1">Check my LinkedIn for detail!</Typography>
-          <br />
-          <a className="linkein" href="https://www.linkedin.com/in/chid9202/">
-            https://www.linkedin.com/in/chid9202/
-          </a>
-          <br />
-          <a className="linkein" href="https://www.linkedin.com/in/chid9202/">
-            https://github.com/chid9202
-          </a>
-        </div>
+        <LogoCard
+          logo={<LogoGithub />}
+          name="Go to Github"
+          link="https://github.com/chid9202"
+        />
+        <LogoCard
+          logo={<LogoLinkedIn />}
+          name="Go to LInkedIn"
+          link="https://www.linkedin.com/in/chid9202/"
+        />
       </Section>
     </AboutMeWrapper>
   );

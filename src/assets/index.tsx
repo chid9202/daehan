@@ -17,6 +17,8 @@ import { ReactComponent as LogoDataDog } from "assets/datadoghq-icon.svg";
 import { ReactComponent as LogoAWS } from "assets/Amazon_Web_Services_Logo.svg";
 import { ReactComponent as LogoSQLServer } from "assets/microsoft-sql-server.svg";
 import { ReactComponent as LogoUbuntu } from "assets/ubuntu-seeklogo.svg";
+import { ReactComponent as LogoGithub } from "assets/github-logo.svg";
+import { ReactComponent as LogoLinkedIn } from "assets/linkedin.svg";
 
 /* Projects */
 import ProjectImageDbalance1 from "assets/dbalance_1.png";
@@ -42,6 +44,8 @@ export {
   LogoAWS,
   LogoSQLServer,
   LogoUbuntu,
+  LogoGithub,
+  LogoLinkedIn,
   ProjectImageDbalance1,
   ProjectImageDbalance2,
   ProjectFoodup1,

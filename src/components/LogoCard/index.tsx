@@ -1,15 +1,20 @@
 import React, { ReactElement } from "react";
 import { LogoCardWrapper, LogoWrapper, NameWrapper } from "./style";
-import { Paper } from "@material-ui/core";
 
 interface Props {
   logo: ReactElement;
-  name: string;
+  name?: string;
+  link?: string;
 }
 
 const LogoCard = (props: Props) => {
   return (
-    <LogoCardWrapper elevation={3}>
+    <LogoCardWrapper
+      elevation={3}
+      {...(props.link && { onClick: () => window.open(props.link, "_blank") })}
+      // {...(props.link && hoverEffect)}
+      hoverEffect={props.link}
+    >
       <LogoWrapper>{props.logo}</LogoWrapper>
       <NameWrapper>{props.name}</NameWrapper>
     </LogoCardWrapper>
