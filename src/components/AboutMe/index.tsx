@@ -19,9 +19,8 @@ import {
   LogoSQLServer,
   LogoUbuntu,
   ProjectImageDbalance1,
-  // ProjectImageDbalance2,
   ProjectFoodup1,
-  // ProjectFoodup2
+  ProjectMyPeekcok,
 } from "assets";
 import LogoCard from "components/LogoCard";
 import ProjectCard from "components/ProjectCard";
@@ -65,6 +64,11 @@ const AboutMe = () => {
           projectImage={ProjectFoodup1}
           projectTitle="FoodUp"
           projectDesc="This project is Yelp-like mobile application which specialized in K-town area in Los Angeles. This project was initialized by COVID-19 which rapidly increased the food delivery. It collects users recommandations and shows popular restaurant by locations and categories."
+        ></ProjectCard>
+        <ProjectCard
+          projectImage={ProjectMyPeekcok}
+          projectTitle="MyPeekcok"
+          projectDesc="Clone coding project which copied iPhone 11 iMessage application. Created with React Native and deployed on AWS Amplify."
         ></ProjectCard>
       </Section>
       <Section title="CONTACT" icon={<IconContact />}>
